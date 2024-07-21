@@ -20,7 +20,7 @@ export class BoardComponent implements OnInit {
   newGame() {
     this.squares = Array(9).fill(null);
     this.winner = '';
-    this.xisNext = true;
+    this.xisNext = false;
   }
 
   get player(): string {
